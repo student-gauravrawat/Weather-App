@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #222;
+    background-color: #003049;
 }
 .card{
     width: 90%;
@@ -44,25 +44,29 @@ body{
     border: 0;
     outline: 0;
     background: #ebfffc;
-    border-radius: 50%;
-    width: 60px;
+    border-radius: 8%;
+    width: 70px;
     height: 60px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-}
-.search .btn :hover{
-    background: linear-gradient(133deg, #3df4c3, #746e93);
-    
- }
+   }
 
-.search button i{
-       /* border: 0; */
-       border-radius: 50%;
-       
-    }  
-    
+   .search input:hover{
+     cursor: pointer; 
+     /* box-shadow: rgba(12, 15, 10, 0.2) 0px 7px 29px 0px; */
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+    .search button:hover{
+       cursor: pointer;
+       border: 1px solid rgb(156, 120, 105);
+       /* box-shadow: rgba(12, 15, 10, 0.2) 0px 7px 29px 0px; */
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+   
     .weather-icon{
         width: 170px;
         margin-top: 30px;
@@ -102,4 +106,16 @@ body{
          font-size: 28px;
          margin: -6px;
 
+    }
+
+    .weather{
+        display: none;
+    }
+
+    .error{
+        text-align: left;
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: 10px;
+        display: none;
     }
