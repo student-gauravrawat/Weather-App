@@ -5,12 +5,17 @@
 }
 
 body{
-    background-image: url(./images/OIP(1).jpeg) ;
+    /* background-color: #0C2D57; */
+   background: linear-gradient(135deg, #00feba, #5b5480); 
+
+    /* background-image: url(./images/OIP\ \(1\).jpeg) ;
+    background-size: cover; */
 }
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b5480);
+    /* background: linear-gradient(135deg, #00feba, #5b5480); */
+    background-color: #747264;
     color: #fff;
     margin: 100px auto 0;
     padding: 40px 35px;
