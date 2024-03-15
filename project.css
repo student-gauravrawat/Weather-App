@@ -5,14 +5,15 @@
 }
 
  body{
-    background-color: #ff8c00;
+    background-color: #180d22;
+    
 
 } 
 
 .card{
     width: 90%;
     max-width: 470px;
-    /* background: linear-gradient(135deg, #00feba, #5b5480); */
+    background: linear-gradient(135deg, #28e4b2, #6d5faf);
     background-color: #985F28;
     color: #fff;
     margin: 100px auto 0;
