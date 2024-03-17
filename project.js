@@ -77,6 +77,13 @@ searchBtn.addEventListener("click" , ()=>{
     checkWeather(searchBox.value);
 })
 
+const enterKey =document.getElementById('text')
+enterKey.addEventListener('keyup', (e)=>{
+    if(e.keyCode === 13){
+   checkWeather(searchBox.value);
+    
+    }
+})
 
 
 
